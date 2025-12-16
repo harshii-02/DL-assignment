@@ -15,4 +15,5 @@ The original code implements a Q-learning based reinforcement learning algorithm
 The updated code simplifies the original SimpleRNN character-level text generation model by removing reproducibility controls, temperature-based probabilistic sampling, and padding logic. The activation function was changed from tanh to ReLU, and deterministic argmax sampling was introduced, making text generation simpler but less diverse. Overall, the updated version prioritizes simplicity over creativity and reproducibility.
 
 6.Tictactoe
+The updated Tic-Tac-Toe program retains the Q-learning framework but modifies the reward structure, increases training iterations, removes exploration decay, and enhances user interaction. While training duration and progress monitoring were improved, a critical bug was introduced by initializing the player symbol incorrectly. Overall, the updated version focuses on longer training and usability at the cost of learning efficiency and correctness.
 
