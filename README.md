@@ -9,3 +9,4 @@ The code was simplified by using image_dataset_from_directory instead of manual 
 The code was optimized by removing redundancy, simplifying Q-learning updates, replacing deprecated NumPy matrices, improving readability, and streamlining training and testing while preserving the original reinforcement learning logic.
 
 4.Lstm
+The original code implements a Q-learning based reinforcement learning algorithm for optimal path finding in a graph environment. The modified code replaces this approach with an LSTM-based deep learning model for time-series forecasting of airline passenger data, introducing dataset handling, normalization, sequence modeling, neural network training, and regression-based evaluation
