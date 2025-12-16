@@ -10,3 +10,9 @@ The code was optimized by removing redundancy, simplifying Q-learning updates, r
 
 4.Lstm
 The original code implements a Q-learning based reinforcement learning algorithm for optimal path finding in a graph environment. The modified code replaces this approach with an LSTM-based deep learning model for time-series forecasting of airline passenger data, introducing dataset handling, normalization, sequence modeling, neural network training, and regression-based evaluation
+
+5. Rnn
+The updated code simplifies the original SimpleRNN character-level text generation model by removing reproducibility controls, temperature-based probabilistic sampling, and padding logic. The activation function was changed from tanh to ReLU, and deterministic argmax sampling was introduced, making text generation simpler but less diverse. Overall, the updated version prioritizes simplicity over creativity and reproducibility.
+
+6.Tictactoe
+
